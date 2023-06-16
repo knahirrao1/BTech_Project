@@ -621,7 +621,7 @@ const Address = () => {
             </div>
             <div className="pl-8 flex items-center">
               <h6 className="text-[12px] 800px:text-[unset]">
-                {item.city} {item.address}
+                {item.address}, {item.city}, {item.state}
               </h6>
             </div>
             <div className="pl-8 flex items-center">
